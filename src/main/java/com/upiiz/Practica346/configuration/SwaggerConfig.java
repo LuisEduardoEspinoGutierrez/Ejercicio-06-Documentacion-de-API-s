@@ -19,9 +19,11 @@ import io.swagger.v3.oas.annotations.servers.Server;
                         name = "MIT License",
                         url = "https://opensource.org/licenses/MIT"
                 )
-        ),
+        )
+        /*
         servers = {
                 @Server(url = "http://localhost:8080", description = "Servidor local")
         }
+        */
 )
 public class SwaggerConfig { }
